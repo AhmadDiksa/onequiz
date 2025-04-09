@@ -22,7 +22,10 @@ class QuizCodeInput extends StatelessWidget {
             TextField(
               decoration: InputDecoration(
                 hintText: "Ex. 23F183",
-                border: OutlineInputBorder(),
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(10.0),
+                  borderSide: BorderSide(color: Colors.deepPurple, width: 2),
+                ),
               ),
             ),
             SizedBox(height: 10),
